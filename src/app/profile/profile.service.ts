@@ -16,27 +16,27 @@ export class ProfileService {
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR 6',
+      'skill': 'Python',
       'progress': '85%'
     },
     {
       'id': '2',
-      'skill': 'PHP\/CODEIGNITER',
+      'skill': 'Java',
       'progress': '80%'
     },
     {
       'id': '3',
-      'skill': 'C++',
+      'skill': 'C',
       'progress': '80%'
     },
     {
       'id': '4',
-      'skill': 'PYTHON',
+      'skill': 'Html & css',
       'progress': '75%'
     },
     {
       'id': '5',
-      'skill': 'ADOBE ILLUSTRATOR',
+      'skill': 'Angular',
       'progress': '75%'
     },
     {
@@ -49,54 +49,22 @@ export class ProfileService {
   educationData: any = [
     {
       'id': '1',
-      'from_to_year': '2016 - 2020',
+      'from_to_year': '2018 - 2022',
       'education': 'Bachelor\'s Degree',
-      'stream': 'Bachelor of Engineering',
-      'institution': 'MADHAV INSTITUTE OF TECHNOLOGY AND SCIENCE, GWALIOR'
+      'stream': 'Bachelor of COMPUTER SCIENCE',
+      'institution': 'MCGILL UNIVERSITY'
     },
     {
       'id': '2',
-      'from_to_year': '2014 - 2015',
+      'from_to_year': '2013 - 2016',
       'education': 'Higher Secondary',
       'stream': 'Science and Mathematics',
-      'institution': 'GOVT. BOYS H.S. SCHOOL, DHAMNOD, DHAR'
+      'institution': 'ST JOSEPH`S BOYS NATIONAL SCHOOL'
     },
-    {
-      'id': '3',
-      'from_to_year': '2012 - 2013',
-      'education': 'High School',
-      'stream': 'Science and Mathematics',
-      'institution': 'SARSWATI SHISHU VIDHYA MANDIR, DHAMNOD, DHAR'
-    }
   ];
 
   exprienceData: any = [
-    {
-      'id': '1',
-      'from_to_month_year': 'JUNE 2018 - AUGUST 2018',
-      'organization': 'WITTYFEED',
-      'designation': 'Full Stack Developer',
-      'details': `Created fully functional projects for <strong>WittyFeed<\/strong>,
-      A publisher Dashboard was created using <strong>Angular 6, CodeIgniter 3 , Rest API and JWT (Json Web Token).
-      <\/strong> It involves multiple modules like Analytics, Stories, RSS Links, Payments.
-      Another project was Influencer admin Dashboard which has features like app approval,
-      app rejection in OneFeed(WittyFeed\u2019s personalised feed SDK) integrations.
-      Lastly the admin dashboard for managing publishers for OneFeed.`
-    },
-    {
-      'id': '2',
-      'from_to_month_year': 'OCTOBER 2017 - NOVEMBER 2017',
-      'organization': 'MITS, GWALIOR',
-      'designation': 'Web Developer',
-      'details': 'Designed the Official Website of the <strong>INDUSTRY CONCLAVE<\/strong>.'
-    },
-    {
-      'id': '3',
-      'from_to_month_year': 'AUGUST 2017 - SEPTEMBER 2017',
-      'organization': 'QUERENCIA CLUB (MITS)',
-      'designation': 'Web Developer',
-      'details': 'Developed the Official Website of the <strong>MITSVAH Literary Fest<\/strong>\r\nUnder <strong>Querencia CLUB<\/strong>.'
-    }
+    
   ];
   // contactus(data: any): Observable<any> {
   //   return this.http.post(this.baseUrl + 'contact', data);
